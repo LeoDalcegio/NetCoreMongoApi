@@ -1,34 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projetos\\MongoApi\\MongoApi.csproj": {}
+    "C:\\ASV\\NetCoreMongoApi\\MongoApi.csproj": {}
   },
   "projects": {
-    "F:\\Projetos\\MongoApi\\MongoApi.csproj": {
+    "C:\\ASV\\NetCoreMongoApi\\MongoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projetos\\MongoApi\\MongoApi.csproj",
+        "projectUniqueName": "C:\\ASV\\NetCoreMongoApi\\MongoApi.csproj",
         "projectName": "MongoApi",
-        "projectPath": "F:\\Projetos\\MongoApi\\MongoApi.csproj",
-        "packagesPath": "C:\\Users\\leood\\.nuget\\packages\\",
-        "outputPath": "F:\\Projetos\\MongoApi\\obj\\",
+        "projectPath": "C:\\ASV\\NetCoreMongoApi\\MongoApi.csproj",
+        "packagesPath": "C:\\Users\\leonardo.dalcegio\\.nuget\\packages\\",
+        "outputPath": "C:\\ASV\\NetCoreMongoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\leood\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leonardo.dalcegio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "F:\\DevExpress\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +48,11 @@
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[2.11.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
             }
           },
           "imports": [
@@ -60,6 +65,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

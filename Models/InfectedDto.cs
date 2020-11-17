@@ -2,10 +2,10 @@ using System;
 
 namespace MongoApi.Models
 {
-    public class InfectadoDto
+    public class InfectedDto
     {
-        public DateTime DataNascimento { get; set; }
-        public string Sexo { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string Gender { get; set; }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
     }
